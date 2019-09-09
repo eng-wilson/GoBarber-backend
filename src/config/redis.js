@@ -1,4 +1,4 @@
 export default {
-  host: '127.0.0.1',
-  port: 6379,
+  host: 'redis-10056.c73.us-east-1-2.ec2.cloud.redislabs.com',
+  port: 10056,
 };
