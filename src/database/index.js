@@ -25,7 +25,7 @@ class Database {
 
   mongo() {
     this.mongoConnection = mongoose.connect(
-      'mongodb+srv://admin:<gobarber>@cluster0-k8muk.mongodb.net/test?retryWrites=true&w=majority',
+      'mongodb+srv://admin:gobarber@cluster0-k8muk.mongodb.net/test?retryWrites=true&w=majority',
       { useNewUrlParser: true, useFindAndModify: true }
     );
   }
