@@ -62,7 +62,7 @@ class AvailableController {
       };
     });
 
-    return res.json({ teste: 'teste' });
+    return res.json(available);
   }
 }
 
